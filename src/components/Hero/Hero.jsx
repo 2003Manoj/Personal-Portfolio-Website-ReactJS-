@@ -10,7 +10,7 @@ export const Hero = () => {
         <h1 className={styles.title}>Hi, I'm Manoj Aryal</h1>
         <p className={styles.description}>
           A passionate and detail-oriented aspiring Frontend Developer with a solid
-          understanding of HTML, CSS, JavaScript, ReactJS, Next.js, and TypeScript.
+          understanding of HTML, CSS, JavaScript, ReactJS and Next.js.
           Eager to contribute to a dynamic team as a Frontend Developer Intern,
           while gaining hands-on experience and advancing my technical skills.
 
