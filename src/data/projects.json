@@ -1,26 +1,23 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "title": "Personal Portfolio Website (ReactJS)",
+    "imageSrc": "assets/projects/project.png",
+    "description": "A personal portfolio website to showcase web development skills, project work, and contact details. The website is fully responsive and built using ReactJs,utilizing React Router for navigation and styled-components.",
+    "skills": ["React"],
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
+    "title": "Task Manager App (ReactJS)",
+    "imageSrc": "assets/projects/project.png",
+    "description": ": A simple task management application where users can add, edit, delete, and mark tasks as complete. The app uses localstorage to store and sync data and Tailwind CSS for styling.",
+    "skills": ["React", "Tailwind CSS"],
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "title": "E-commerce Product Page (Next.js)",
+    "imageSrc": "assets/projects/project.png",
+    "description": " A product page for an e-commerce website, displaying product details, images, and a responsive layout. The project integrates Next.js for (SSR) and Tailwind CSS for styling.",
+    "skills": ["Next.js", "Tailwind CSS"],
     "source": "https://www.github.com"
   }
 ]

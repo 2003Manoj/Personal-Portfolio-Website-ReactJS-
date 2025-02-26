@@ -15,7 +15,7 @@ export const Experience = () => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                  <img src={(skill.imageSrc)} alt={skill.title} />
                 </div>
                 <p>{skill.title}</p>
               </div>
@@ -25,18 +25,26 @@ export const Experience = () => {
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
-              <li key={id} className={styles.historyItem}>
+              <li  className={styles.historyItem}>
                 <img
-                  src={getImageUrl(historyItem.imageSrc)}
+                  src={(historyItem.imageSrc)}
                   alt={`${historyItem.organisation} Logo`}
                 />
                 <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                  <h3>{`${historyItem.role},`}</h3>
+
                   <ul>
-                    {historyItem.experiences.map((experience, id) => {
-                      return <li key={id}>{experience}</li>;
-                    })}
+
+                    <li >Developed multiple responsive websites using ReactJS and Next.js,
+                      implementing modern best practices.
+                    </li>
+                    <li >Worked with REST APIs to fetch and display dynamic data in realtime.</li>
+                    <li >Enhanced the user interface using CSS and TailwindCSS, ensuring a
+                      smooth, responsive design.
+                    </li>
+                    <li >Collaborated with other developers to improve code
+                      quality and maintainability through version control </li>
+
                   </ul>
                 </div>
               </li>
