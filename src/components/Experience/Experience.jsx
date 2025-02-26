@@ -35,7 +35,7 @@ export const Experience = () => {
 
                   <ul>
 
-                    <li >Developed multiple responsive websites using ReactJS and Next.js,
+                    <li >Developed multiple responsive websites using ReactJS,
                       implementing modern best practices.
                     </li>
                     <li >Worked with REST APIs to fetch and display dynamic data in realtime.</li>

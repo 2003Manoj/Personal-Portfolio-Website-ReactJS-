@@ -4,7 +4,7 @@
     "imageSrc": "assets/projects/project.png",
     "description": "A personal portfolio website to showcase web development skills, project work, and contact details. The website is fully responsive and built using ReactJs,utilizing React Router for navigation and styled-components.",
     "skills": ["React"],
-    "source": "https://www.github.com"
+    "source": "https://github.com/2003Manoj/Personal-Portfolio-Website-ReactJS-"
   },
   {
     "title": "Task Manager App (ReactJS)",
@@ -14,10 +14,10 @@
     "source": "https://www.github.com"
   },
   {
-    "title": "E-commerce Product Page (Next.js)",
+    "title": "E-commerce Product Page (ReactJs)",
     "imageSrc": "assets/projects/project.png",
-    "description": " A product page for an e-commerce website, displaying product details, images, and a responsive layout. The project integrates Next.js for (SSR) and Tailwind CSS for styling.",
-    "skills": ["Next.js", "Tailwind CSS"],
+    "description": " A product page for an e-commerce website, displaying product details, images, and a responsive layout. The project integrate React and Tailwind CSS for better styling.",
+    "skills": ["React", "Tailwind CSS"],
     "source": "https://www.github.com"
   }
 ]
